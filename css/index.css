@@ -12,6 +12,10 @@ html {
   font-size: 1.5rem;
 }
 /* HEADER */
+img {
+  max-width: 300px;
+  height: auto;
+}
 .nav-bar {
   display: flex;
   flex-flow: row;
