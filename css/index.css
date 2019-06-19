@@ -8,8 +8,9 @@ html {
   font-size: 62.5%;
 }
 .container {
-  width: 80%;
+  max-width: 900px;
   margin: 0 auto;
+  text-align: center;
   font-size: 1.5rem;
   /* HEADER SECTION */
   /* MAIN SECTION */
@@ -22,7 +23,7 @@ html {
   justify-content: space-around;
 }
 .container .header {
-  width: 80%;
+  width: 100%;
   background-color: #E9ECEF;
   font-weight: bold;
   font-size: 1.5rem;
@@ -56,20 +57,20 @@ html {
   text-align: center;
 }
 .container main .main-content-left-side {
-  width: 17%;
+  width: 50%;
 }
 .container main .main-content-right-side {
-  width: 60%;
+  width: 50%;
 }
 .container main .experience-table {
-  width: 80%;
+  width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
   padding: 1rem;
 }
 .container main .experience-table td {
-  width: 80%;
+  width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
@@ -80,14 +81,14 @@ html {
   flex-flow: column nowrap;
 }
 .container main .main-content-bottom table {
-  width: 80%;
+  width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
   padding: 1rem;
 }
 .container main .main-content-bottom table td {
-  width: 80%;
+  width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
@@ -95,7 +96,7 @@ html {
   width: 25%;
 }
 .container main .main-content-bottom table th {
-  width: 80%;
+  width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
