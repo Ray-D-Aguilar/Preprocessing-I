@@ -55,9 +55,6 @@ html {
   border-radius: 10%;
   text-align: center;
 }
-.container main {
-  border: 1px solid black;
-}
 .container main .main-content-left-side {
   width: 17%;
 }
@@ -95,6 +92,7 @@ html {
   border-collapse: collapse;
   text-align: left;
   padding: 1rem;
+  width: 25%;
 }
 .container main .main-content-bottom table th {
   width: 80%;
