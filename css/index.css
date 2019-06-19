@@ -52,3 +52,23 @@ html {
   border-radius: 10%;
   text-align: center;
 }
+.container main .experience-table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.container main .experience-table td {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.container main .main-content-bottom table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.container main .main-content-bottom table td {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}

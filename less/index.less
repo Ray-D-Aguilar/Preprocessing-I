@@ -58,6 +58,13 @@
 // }
 
 /* CODE STARTS HERE */
+
+.table-contents() {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
 html {
 	font-size: 62.5%;
 }
@@ -124,9 +131,23 @@ html {
 	
 	}
 	/* MAIN SECTION */
-	.main {
+	main {
 		.experience-table {
+			.table-contents();
+			
+			td {
+				.table-contents();
+			}
+		}
 
+		.main-content-bottom {
+			table {
+				.table-contents();
+
+				td {
+					.table-contents();
+				}
+			}
 		}
 	}
 
