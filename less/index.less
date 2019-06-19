@@ -59,11 +59,27 @@
 
 /* CODE STARTS HERE */
 
+/* MIXINS and Variables */
 .table-contents() {
-	width: 100%;
+	width: 80%;
 	border: 1px solid black;
 	border-collapse: collapse;
+	text-align: left;
+	padding: 1rem;
+
 }
+
+.flex-content() {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+@backgroundgrey: #E9ECEF;
+
+
+
+
+
 
 html {
 	font-size: 62.5%;
@@ -86,7 +102,8 @@ html {
 	}
 
 	.header {
-		background-color: #E9ECEF;
+		width: 80%;
+		background-color: @backgroundgrey;
 		font-weight: bold;
 		font-size: 1.5rem;
 		border-radius: 2.5%;
@@ -108,8 +125,7 @@ html {
 	
 	
 	.nav-bar {
-		display: flex;
-		flex-flow: row;
+		.flex-content;
 		justify-content: flex-end;
 	
 		a {
@@ -132,6 +148,17 @@ html {
 	}
 	/* MAIN SECTION */
 	main {
+		border: 1px solid black;
+		.main-content-left-side {
+			width: 17%;
+			
+		}
+
+		.main-content-right-side {
+			width: 60%;
+		}
+
+
 		.experience-table {
 			.table-contents();
 			
@@ -141,11 +168,18 @@ html {
 		}
 
 		.main-content-bottom {
+			.flex-content;
+			
+
 			table {
-				.table-contents();
+				.table-contents;
 
 				td {
-					.table-contents();
+					.table-contents;
+				}
+
+				th {
+					.table-contents;
 				}
 			}
 		}

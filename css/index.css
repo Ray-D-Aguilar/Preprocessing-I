@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 /* CODE STARTS HERE */
+/* MIXINS and Variables */
 html {
   font-size: 62.5%;
 }
@@ -20,6 +21,7 @@ html {
   justify-content: space-around;
 }
 .container .header {
+  width: 80%;
   background-color: #E9ECEF;
   font-weight: bold;
   font-size: 1.5rem;
@@ -36,7 +38,7 @@ html {
 }
 .container .nav-bar {
   display: flex;
-  flex-flow: row;
+  flex-flow: column nowrap;
   justify-content: flex-end;
 }
 .container .nav-bar a {
@@ -52,23 +54,51 @@ html {
   border-radius: 10%;
   text-align: center;
 }
+.container main {
+  border: 1px solid black;
+}
+.container main .main-content-left-side {
+  width: 17%;
+}
+.container main .main-content-right-side {
+  width: 60%;
+}
 .container main .experience-table {
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: left;
+  padding: 1rem;
 }
 .container main .experience-table td {
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: left;
+  padding: 1rem;
+}
+.container main .main-content-bottom {
+  display: flex;
+  flex-flow: column nowrap;
 }
 .container main .main-content-bottom table {
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: left;
+  padding: 1rem;
 }
 .container main .main-content-bottom table td {
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: left;
+  padding: 1rem;
+}
+.container main .main-content-bottom table th {
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 1rem;
 }
