@@ -13,6 +13,7 @@ html {
   font-size: 1.5rem;
   /* HEADER SECTION */
   /* MAIN SECTION */
+  /*	FOOTER */
 }
 .container .flex {
   display: flex;
@@ -101,4 +102,8 @@ html {
   border-collapse: collapse;
   text-align: left;
   padding: 1rem;
+}
+.container footer {
+  display: flex;
+  justify-content: center;
 }
