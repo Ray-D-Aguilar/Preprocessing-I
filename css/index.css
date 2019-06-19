@@ -11,39 +11,41 @@ html {
   margin: 0 auto;
   font-size: 1.5rem;
 }
-/* HEADER */
-.header {
+.container .header {
   background-color: #E9ECEF;
+  font-weight: bold;
+  font-size: 1.5rem;
   display: flex;
   border-radius: 5%;
   margin-top: 1.5rem;
 }
-.header img {
+.container .header img {
   max-width: 300px;
   height: auto;
   border-radius: 5%;
 }
-.header p {
+.container .header p {
   margin-left: 1rem;
 }
-.nav-bar {
+.container .nav-bar {
   display: flex;
   flex-flow: row;
   justify-content: flex-end;
 }
-.nav-bar a {
+.container .nav-bar a {
   margin-top: 15px;
   padding: 15px;
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-.nav-bar a:hover {
+.container .nav-bar a:hover {
   background-color: black;
   color: white;
   border-radius: 10%;
   text-align: center;
 }
+/* HEADER */
 /* MAIN */
 /* FOOTER */
 /* MEDIA Q'S */
